@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/leandroxzq/codebuy-web2/static/css/main.a218fa48.css",
+    "main.js": "/leandroxzq/codebuy-web2/static/js/main.de3d9c8e.js",
+    "static/js/488.51521c1b.chunk.js": "/leandroxzq/codebuy-web2/static/js/488.51521c1b.chunk.js",
+    "index.html": "/leandroxzq/codebuy-web2/index.html",
+    "main.a218fa48.css.map": "/leandroxzq/codebuy-web2/static/css/main.a218fa48.css.map",
+    "main.de3d9c8e.js.map": "/leandroxzq/codebuy-web2/static/js/main.de3d9c8e.js.map",
+    "488.51521c1b.chunk.js.map": "/leandroxzq/codebuy-web2/static/js/488.51521c1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a218fa48.css",
+    "static/js/main.de3d9c8e.js"
+  ]
+}
