@@ -1,0 +1,46 @@
+h2 {
+	color: #fff;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.catalogo {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 2rem;
+	padding: 1rem;
+
+	&:hover .card {
+		transform: scale(0.98);
+		transition: 0.3s;
+	}
+
+	& .card:hover {
+		transform: scale(1.05);
+		transition: 0.3s;
+	}
+}
+
+@media (width <= 1400px) {
+	.catalogo {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (width <= 1100px) {
+	.catalogo {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (width <= 750px) {
+	.catalogo {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (width <= 1100px) {
+	.catalogo {
+		padding: 0;
+	}
+}

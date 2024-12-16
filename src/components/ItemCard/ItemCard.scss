@@ -1,0 +1,58 @@
+.card {
+	display: flex;
+	align-items: center;
+	max-height: 245px;
+	max-width: 360px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 6px;
+	padding: 1rem;
+	gap: 1rem;
+	box-shadow: 1px 4px 10px #ffffff70;
+
+	&__img {
+		height: 180px;
+		width: 185px;
+		cursor: pointer;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		flex: 1 1 120px;
+
+		p {
+			margin: 0.5rem 0;
+		}
+
+		h3 {
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			font-size: 0.7rem;
+
+			&:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+	}
+
+	&__button {
+		background: #238636;
+		font-weight: bolder;
+		border: none;
+		padding: 1rem;
+		color: #fff;
+		border-radius: 6px;
+		width: 100%;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #145722;
+		}
+	}
+}

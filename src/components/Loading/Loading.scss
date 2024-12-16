@@ -1,0 +1,22 @@
+.container-loading {
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	color: #fff;
+}
+
+.container-loading i {
+	animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}

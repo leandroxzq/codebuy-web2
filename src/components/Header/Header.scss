@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	background: #010409;
+	color: #000;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	margin-bottom: 2rem;
+	padding: 1rem 0;
+	border-bottom: 1px solid #3d444d;
+
+	&__container-icon {
+		display: flex;
+		color: #fff;
+		gap: 2rem;
+		font-size: 1rem;
+	}
+
+	&__container-icon i {
+		padding: 0.8rem;
+		border-radius: 6px;
+		border: 1px solid #3d444d;
+
+		&:hover {
+			color: #8b8b8b;
+			cursor: pointer;
+		}
+	}
+}
